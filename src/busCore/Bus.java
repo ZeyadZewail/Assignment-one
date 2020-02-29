@@ -9,6 +9,36 @@ public class Bus {
     private float fare;
     private int passengersNo;
 
+    public static int  busCount=0;
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setOrigin(String origin) {
+        this.origin = origin;
+    }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
+    public void setDistance(float distance) {
+        this.distance = distance;
+    }
+
+    public void setRunningTimes(String runningTimes) {
+        this.runningTimes = runningTimes;
+    }
+
+    public void setFare(float fare) {
+        this.fare = fare;
+    }
+
+    public void setPassengersNo(int passengersNo) {
+        this.passengersNo = passengersNo;
+    }
+
     public int getId() {
         return id;
     }
@@ -37,16 +67,24 @@ public class Bus {
         return passengersNo;
     }
 
-    public Bus(int id, String origin, String destination, float distance, String runningTimes, float fare) {
+    public Bus(int id, String origin, String destination, float distance, String runningTimes, float fare,int passengersNo) {
         this.id = id;
         this.origin = origin;
         this.destination = destination;
         this.distance = distance;
         this.runningTimes = runningTimes;
         this.fare = fare;
-        this.passengersNo = 0;
+        this.passengersNo = passengersNo;
+        busCount++;
     }
 
-
+    public String toString() {
+        return "Bus{" +
+                "id=" + id +
+                ", origin='" + origin + '\'' +
+                ", destination='" + destination + '\'' +
+                ", passengersNo=" + passengersNo +
+                '}';
+    }
 
 }
