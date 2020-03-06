@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Admin extends User {
     Scanner input = new Scanner(System.in);
+    public static boolean loggedadmin=false;
 
     public static int adminCount = 0;
 
@@ -21,6 +22,9 @@ public class Admin extends User {
         this.password = password;
     }
 
+    public static void setLoggedadmin(boolean loggedadmin) {
+        Admin.loggedadmin = loggedadmin;
+    }
 
     public float calcFare(Bus x) {
         if (logged) {
@@ -143,7 +147,6 @@ public class Admin extends User {
         int passengerNo = input.nextInt();
         b[number] = new Bus(ID, Origin, Destination, Distance, running_Time, Fare,passengerNo);
     }
-
 
 }
 

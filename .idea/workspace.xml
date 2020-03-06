@@ -26,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -65,30 +66,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="568" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582910529849" />
-    <state x="830" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1582922004752">
+    <state x="830" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1583525361793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="830" y="269" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582922004752" />
+    <state x="830" y="269" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583525361793" />
     <state x="693" y="443" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582910450999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="693" y="443" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582910450999" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1582922526517">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583526284159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582922526517" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1582922526517">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583526284159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583526284159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582922526517" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1582922526516">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583526284159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583526284159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582922526516" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1582922526517">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583526284159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583526284159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582922526517" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583526284159" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582922526517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -105,17 +106,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582922526517" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582990811789">
+    <state x="542" y="234" key="SettingsEditor" timestamp="1583526216543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582990811789" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1582922167823">
+    <state x="542" y="234" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583526216543" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583523372722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582922167823" />
-    <state x="688" y="272" width="672" height="160" key="search.everywhere.popup" timestamp="1582920511151">
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583523372722" />
+    <state x="342" y="140" key="new project wizard" timestamp="1583335053805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="688" y="272" width="672" height="160" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582920511151" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583335053805" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1583526255802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583526255802" />
+    <state x="688" y="272" width="672" height="160" key="search.everywhere.popup" timestamp="1583525640189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="272" width="672" height="160" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583525640189" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Assignment_one$Main.ic" NAME="Main Coverage Results" MODIFIED="1583526203243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

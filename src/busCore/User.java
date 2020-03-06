@@ -6,6 +6,9 @@ public class User {
     protected String username;
     protected String  password;
     static boolean logged =false;
+    public static int index=0;
+
+
     Scanner input = new Scanner(System.in);
     public User(String username, String password) {
         this.username = username;
@@ -25,7 +28,7 @@ public class User {
         return password;
     }
 
-    public static void login(User[] users){
+    public static boolean login(User[] users){
         Scanner input = new Scanner(System.in);
         System.out.println("Username:");
         String U = input.nextLine();
@@ -34,9 +37,11 @@ public class User {
         for (int i = 0; i<users.length; i++){
             if (users[i] != null ){
                 if (users[i].getUsername().equals(U) & users[i].getPassword().equals(P) ){
-                logged = true;
-                System.out.println("Logged in!");
-            }
+                    logged = true;
+                    index=i;
+                    System.out.println("Logged in!");
+
+                }
             }
 
         }
@@ -44,7 +49,7 @@ public class User {
             System.out.println("Wrong Username or Password");
         }
 
-
+        return logged;
     }
     public static void logout(){
         System.out.println("Logged out!");
@@ -52,5 +57,9 @@ public class User {
 
 
     }
+
+
+
+
 
 }

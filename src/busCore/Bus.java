@@ -8,8 +8,19 @@ public class Bus {
     private String runningTimes;
     private float fare;
     private int passengersNo;
+    public static int maxseats=20;
+    private int seat;
+
 
     public static int  busCount=0;
+
+    public int getSeat() {
+        return seat;
+    }
+
+    public void setSeat(int seat) {
+        this.seat = seat;
+    }
 
     public void setId(int id) {
         this.id = id;
@@ -76,6 +87,15 @@ public class Bus {
         this.fare = fare;
         this.passengersNo = passengersNo;
         busCount++;
+    }
+    public Bus(Bus q){
+        this.id = q.id;
+        this.origin = q.origin;
+        this.destination = q.destination;
+        this.distance = q.distance;
+        this.runningTimes = q.runningTimes;
+        this.fare = q.fare;
+        this.passengersNo = q.passengersNo;
     }
 
     public String toString() {
